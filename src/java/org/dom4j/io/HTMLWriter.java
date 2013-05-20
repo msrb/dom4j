@@ -262,7 +262,7 @@ public class HTMLWriter extends XMLWriter {
     }
 
     public void endCDATA() throws SAXException {
-        if (disabled) super.startCDATA();
+        if (disabled) super.endCDATA();
     }
 
     // Overloaded methods
